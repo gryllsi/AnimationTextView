@@ -1,5 +1,28 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'project_name' //bintray 上面 Package名字
+    bintrayName = 'AnimationTextView'//bintray 上面项目名
+
+    publishedGroupId = 'com.totcy.widget'//groupId
+    libraryName = 'AnimationTextView'
+    artifact = 'animationtext'
+
+    libraryDescription = 'animation textview'
+
+    siteUrl = 'https://github.com/792814781/AnimationTextView'
+    gitUrl = 'https://github.com/792814781/AnimationTextView.git'
+
+    libraryVersion = '1.0.0'//版本号
+
+    developerId = 'intotcy'
+    developerName = 'flok.tu'
+    developerEmail = 'intotcy@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -29,3 +52,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'
 }
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
