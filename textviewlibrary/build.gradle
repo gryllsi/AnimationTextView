@@ -6,14 +6,14 @@ ext {
 
     publishedGroupId = 'com.totcy.widget'//groupId
     libraryName = 'AnimationTextView'
-    artifact = 'animationtext'
+    artifact = 'textviewlibrary'
 
     libraryDescription = 'animation textview'
 
     siteUrl = 'https://github.com/792814781/AnimationTextView'
     gitUrl = 'https://github.com/792814781/AnimationTextView.git'
 
-    libraryVersion = '1.0.0'//版本号
+    libraryVersion = '1.0.1'//版本号
 
     developerId = 'intotcy'
     developerName = 'flok.tu'
