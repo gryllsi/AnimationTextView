@@ -2,10 +2,10 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'project_name' //bintray 上面 Package名字
-    bintrayName = 'AnimationTextView'//bintray 上面项目名
+    bintrayName = 'AnimationDigit'//bintray 上面项目名
 
     publishedGroupId = 'com.totcy.widget'//groupId
-    libraryName = 'AnimationTextView'
+    libraryName = 'AnimationDigit'
     artifact = 'textviewlibrary'
 
     libraryDescription = 'animation textview'
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/792814781/AnimationTextView'
     gitUrl = 'https://github.com/792814781/AnimationTextView.git'
 
-    libraryVersion = '1.0.1'//版本号
+    libraryVersion = '1.0.0'//版本号
 
     developerId = 'intotcy'
     developerName = 'flok.tu'

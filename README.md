@@ -4,7 +4,7 @@
 Add dependencies in build.gradle:
 ```
  dependencies {
-       compile 'com.totcy.widget:textviewlibrary:1.0.1'
+       compile 'com.totcy.widget:textviewlibrary:1.0.0'
     }
 ```
 Or Maven:
@@ -12,7 +12,7 @@ Or Maven:
 <dependency>
   <groupId>com.totcy.widget</groupId>
   <artifactId>textviewlibrary</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.0</version>
   <type>pom</type>
 </dependency>
 ```
