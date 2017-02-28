@@ -1,5 +1,5 @@
 #demo
-
+![image](/screenshot/2017-02-21_15_57_37.gif)
 # usage
 Add dependencies in build.gradle:
 ```
